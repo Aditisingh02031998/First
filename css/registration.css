@@ -1,0 +1,109 @@
+/* greek */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('../fonts/Roboto-Light.ttf') format('woff2');
+    unicode-range: U+0370-03FF;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #008ee0;
+}
+
+a {
+    color: #008ee0;
+    text-decoration: none;
+}
+
+.white-box {
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+.login-here {
+    padding: 20px 30px;
+    text-align: center;
+    color: #FFF;
+}
+
+.login-here a {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+/* form css goes here */
+.header {
+    padding: 30px;
+    border-bottom: 1px solid #EAEAEA;
+}
+
+.subhead {
+    color: #999999;
+}
+
+.form-body {
+    padding: 30px;
+}
+
+.form-holder {
+    width: 33%;
+    position: absolute;
+    left: 33%;
+    top: 10%;
+}
+
+.row {
+    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox; /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Chrome */
+    display: flex; /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+
+.half {
+    padding: 0 8px;
+    width: 50%;
+}
+
+.negative-margin {
+    margin: 0 -8px;
+}
+
+.form-input {
+    margin-bottom: 24px;
+}
+
+.input-box {
+    padding: 15px 15px;
+    border: none;
+    outline: none;
+    background: #f2f2f2;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.terms-and-conditions {
+    color: #a29cb3;
+}
+
+.submit-button {
+    background: #008ee0;
+    color: #FFF;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    padding: 10px 50px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+label.error {
+    font-size: 12px;
+    color: #D50000;
+    padding: 5px 0;
+    display: inline-block;
+}
